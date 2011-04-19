@@ -1,5 +1,5 @@
 <h1>tDiary からMovable Typeへの移行</h1>
-<A href="t2m.txt" target="_blank">t2m.pl</a> ( 変換実績 tDiary(1.5.x) → Movable Type (2.661) )
+( 変換実績 tDiary(1.5.x) → Movable Type (2.661) )
 <HR>
 <P>まずは、とくにtDiaryに不満があるわけでもなく、またMovable Typeへの移行を考えているわけでもないのです。</P>
 <P>ただ、探してみたところぜんぜん変換ツールがない、またいつでも移行できるように自分用のツールを作ってみました。ツールがないのは、pluginのサポートができなかったり、十人十色のtDiaryのつかい方に対して、適切な変換方法が見つけられないからだと思います。</P>
@@ -8,7 +8,6 @@
 <small>(ただし、同じ日に複数の日記をつけている場合、コメントについては、一番最初に書いた日記に対してのコメントとして処理しちゃいます。)</small></P>
 <P>なお、変換前のtDiaryは→<A href="http://kenstar.org/~kenstar/tdiary/200402.html">こちら</A>、<BR>
 変換後のMovable Typeは→<A href="http://kenstar.org/~kenstar/ks/archives/2004/02.html">こちら</A></P>
-<P>作成した変換ツールはこちら→<a href="t2m.txt" target="_blank">t2m.pl</a></P>
 <h2>予備知識</h2>
 <P>tDiaryのキャッシュは、tdiary.confの中に記述されている、@data_pathにある。
 このディレクトリの下に、2004/200404.td2というように、「年/年月.td2」として保存されています。元データは、
